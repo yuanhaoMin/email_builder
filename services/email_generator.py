@@ -4,7 +4,7 @@ from services.llm_client import generate_structured_output
 from services.models import EmailOut
 
 PROMPTS_DIR = Path("prompts")
-DEFAULT_PROMPT_PATH = PROMPTS_DIR / "intcrest_ceo_v2a.txt"
+DEFAULT_PROMPT_PATH = PROMPTS_DIR / "it4you_verband.txt"
 
 
 def list_prompt_files() -> list[Path]:
